@@ -1,0 +1,44 @@
+.btn {
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+
+.active, .btn:hover {
+  background-color:green;
+  color: white;
+}
+
+.image_with_text {
+  width: auto;
+  height: 1.5em;
+  vertical-align: text-top;
+}
+
+#legend{
+  align-items: right;
+  border: 2px solid green;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+#map {
+  height: 445px;
+  width: 100%;
+  border: 0px solid green;
+}
+
+#title {
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  background-color:green;
+}

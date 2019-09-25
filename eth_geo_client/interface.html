@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="library.css">
+    <title>Demo</title>
+  </head>
+
+  <body onload="get_targets(), get_users()">
+
+    <div id="title">
+      <h1>Demo</h1>
+      <p>Geolocalizzazione e blockchain</p>
+    </div>
+
+    </br>
+
+    <span id="users"></span>
+
+    <span id="legend">
+      <img class="image_with_text" src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> Target
+      <img class="image_with_text" src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> Progress = START
+      <img class="image_with_text" src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> Progress = TRAVELLING
+      <img class="image_with_text" src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> Progress = END - Target raggiunto
+      <img class="image_with_text" src="http://maps.google.com/mapfiles/ms/icons/purple-dot.png"> Progress = END - Nessun target raggiunto
+    </span>
+
+    </br>
+    </br>
+
+    <span><div id="map"></div></span>
+
+    <script src="library.js"></script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
+    </script>
+
+  </body>
+
+</html>
